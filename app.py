@@ -35,7 +35,7 @@ def load_vectorstore():
     )
 
 vectorstore = load_vectorstore()
-retriever = vectorstore.as_retriever(search_kwargs={"k": 6})
+retriever = vectorstore.as_retriever(search_kwargs={"k": 10})
 
 # ==========================================================
 # LOAD GROQ CLIENT
@@ -93,7 +93,7 @@ Question:
     st.subheader("Answer")
     st.write(answer)
 
-    # Display sources
-    st.subheader("Sources")
-    for doc in docs:
-        st.write(doc.metadata)
+    # # Display sources
+    # st.subheader("Sources")
+    # for doc in docs:
+    #     st.write(doc.metadata)
