@@ -1,46 +1,62 @@
-FAQ
+Tell me about yourself
+I recently completed my MS in Data Analytics Engineering at Northeastern University and most recently worked as a Machine Learning Engineer at Boehringer Ingelheim. My focus has been on building production-grade ML systems rather than just training models. At Boehringer, I built a scalable RAG pipeline to analyze over 10,000 survey responses using Llama-3 and GPT models, optimized inference using asynchronous FastAPI and multi-GPU Ray orchestration, and implemented automated retraining pipelines with Airflow. I enjoy working at the intersection of machine learning and systems engineering where models drive measurable business impact.
 
-Q: Tell me about yourself.
-A: I’m a Machine Learning Engineer based in Boston with experience building production-grade AI systems. At Boehringer Ingelheim, I engineered a scalable RAG architecture using Llama-3 and GPT-4o to analyze 10K+ employee survey responses. I improved chatbot throughput by 80% using asynchronous FastAPI and vLLM, scaled across multi-GPU clusters with Ray, and built automated Airflow pipelines with drift-triggered retraining. Previously at Yunometa, I modernized legacy APIs into cloud-native microservices and built large-scale Spark data pipelines processing 10M+ records.
+Why are you interested in this company?
+I’m interested in your company because of your emphasis on building impactful AI systems in production. My experience has been centered around scalability, reliability, and performance optimization, and I’m looking to join a team that values those principles. I’m particularly excited about contributing to systems that require both strong ML understanding and solid engineering execution.
 
-Q: What experience do you have with Retrieval-Augmented Generation (RAG)?
-A: At Boehringer Ingelheim, I built a production-grade RAG system using Llama-3, GPT-4o, and Nova Lite to extract key themes from 10K+ employee survey responses. I implemented chunking, embedding pipelines, nightly updates, and drift-triggered retraining using Airflow. In my FinanceHelper AI project, I integrated LangChain-based RAG with semantic similarity to provide context-aware financial guidance.
+Why are you leaving your previous role?
+My previous role aligned with my graduate program timeline, and I’ve now completed my degree. I’m looking for a long-term opportunity where I can take ownership of larger ML systems and continue growing in distributed systems, inference optimization, and production AI. I’m excited to contribute to a team where I can have sustained impact.
 
-Q: What experience do you have with distributed systems?
-A: I scaled LLM inference across multi-GPU clusters using Ray and vLLM continuous batching at Boehringer Ingelheim, improving throughput by 80%. In my Distributed Machine Learning Training Framework project, I implemented DeepSpeed ZeRO optimization and used Ray for multi-GPU orchestration and efficient parameter synchronization.
+What are your strengths?
+One of my biggest strengths is building scalable ML systems end-to-end. For example, when our chatbot performance became a bottleneck, I redesigned the inference pipeline using asynchronous FastAPI and Ray-based multi-GPU orchestration, which increased throughput by 80% while maintaining response quality. I focus not just on model performance but on system reliability and measurable outcomes.
 
-Q: What measurable impact have you delivered in your roles?
-A: At Boehringer, I improved chatbot throughput by 80%, reduced incident resolution time by 40%, and maintained 95% SLA compliance. At Yunometa, I accelerated loan approval processes by 70% and improved data preprocessing efficiency by 40% through scalable Spark pipelines.
+What is your weakness?
+Earlier in my career, I tended to over-optimize systems before gathering enough user feedback. Over time, I’ve learned to prioritize iterative development — delivering solid solutions quickly, validating them with stakeholders, and then refining based on real usage data. That balance has made me more effective.
 
-Q: What cloud and DevOps experience do you have?
-A: I have hands-on experience with AWS services including S3, Lambda, EC2, EKS, and EMR. At Yunometa, I modernized a legacy API into a cloud-native microservices architecture using Django, Docker, Kubernetes, and AWS EKS with OAuth 2.0 security. I also implemented monitoring using AWS CloudWatch, Grafana, and Prometheus.
+Where do you see yourself in 3–5 years?
+In the next few years, I see myself as a senior ML engineer designing large-scale production systems and mentoring others. I want to deepen my expertise in distributed ML infrastructure and reliable AI deployment. Long term, I aim to lead initiatives that bridge research innovation with production-ready engineering.
 
-Q: What machine learning frameworks and tools do you use?
-A: I primarily work with PyTorch, HuggingFace, LangChain, vLLM, and MLflow for LLM systems. I’ve used DeepSpeed for distributed training, Ray for orchestration, Airflow for data engineering pipelines, and FastAPI for model serving. My broader stack includes Spark, PostgreSQL, MongoDB, and AWS cloud infrastructure.
+What differentiates you from other ML candidates?
+What differentiates me is my combination of ML modeling and production engineering experience. I’ve worked not only on model training but also on distributed inference, GPU orchestration, automated retraining pipelines, monitoring, and SLA-driven systems. I think in terms of full lifecycle ownership rather than isolated modeling tasks.
 
-Q: What experience do you have with large-scale data processing?
-A: At Yunometa, I engineered advanced SQL queries across AWS Athena, Redshift, S3, and Druid to manage 10M+ records from government APIs. I also developed scalable Spark-based data transformation pipelines on AWS EMR and Lambda to ingest, cleanse, and standardize large datasets efficiently.
+How do you handle conflict?
+When conflict arises, I focus on aligning around shared goals and measurable outcomes. In a cross-functional project, there were differing opinions about model complexity versus deployment speed. I suggested benchmarking both approaches and evaluating them against latency and accuracy metrics. Letting data guide the decision helped resolve the disagreement constructively.
 
-Q: Do you have experience fine-tuning large language models?
-A: Yes. In my FinanceHelper AI project, I fine-tuned Mistral-7B using LoRA and implemented semantic retrieval with LangChain for improved contextual accuracy. I also developed a modular distributed training pipeline using DeepSpeed and Ray for efficient multi-GPU fine-tuning workflows.
+What motivates you?
+I’m motivated by solving complex technical challenges and seeing ML systems create real-world impact. I particularly enjoy optimizing performance, scaling systems, and ensuring reliability in production environments. Seeing a system improve business decision-making or user experience is very rewarding for me.
 
-Q: What projects demonstrate your GenAI expertise?
-A: My FinanceHelper AI project involved LoRA-based fine-tuning of Mistral-7B and integration of a RAG pipeline using LangChain. Additionally, at Boehringer Ingelheim, I built a scalable RAG architecture to analyze large-scale survey data and deliver actionable insights to leadership.
+Why should we hire you?
+You should hire me because I bring strong ML fundamentals combined with hands-on production experience. I’ve built scalable RAG systems, improved inference throughput by 80%, reduced incident resolution time by 40% through monitoring improvements, and maintained high SLA standards. I take ownership, work well cross-functionally, and focus on delivering measurable impact.
 
-Q: Are you open to relocation?
-A: Yes, I am currently based in Boston, MA and open to relocation opportunities.
+What do you do outside of work?
+Outside of work, I focus a lot on personal development and health. I enjoy running and tracking my performance metrics, which aligns well with my data-driven mindset. I also spend time exploring advancements in AI systems, reading about new model architectures, and experimenting with side projects related to distributed ML and optimization. Staying active and continuously learning helps me maintain both mental clarity and technical sharpness.
 
-Q: Describe a challenging problem you solved.
-A: At Boehringer Ingelheim, scaling LLM inference across GPUs while maintaining low latency and high reliability was challenging. I implemented asynchronous FastAPI endpoints and vLLM continuous batching, orchestrated via Ray across multi-GPU clusters. This improved throughput by 80% while maintaining 95% SLA compliance.
+Tell me about a project where requirements were unclear.
+At Boehringer, we were tasked with building a system to analyze over 10,000 survey responses, but the initial requirement was simply “generate insights for leadership.” There were no defined success metrics or clarity on whether the focus was summarization, sentiment analysis, or trend detection. I started by meeting with stakeholders to clarify what decisions they wanted to make using the data. From there, I translated business goals into technical requirements, designed a RAG-based system with retrieval and structured summarization, and defined evaluation criteria around response quality and latency. The final system provided actionable summaries and improved insight turnaround time significantly.
 
-Q: Describe a time you improved an existing system.
-A: At Yunometa, I modernized a legacy API into a cloud-native microservices architecture using Django, Docker, Kubernetes, and AWS EKS. This significantly improved system scalability and accelerated loan approval processes by 70% through real-time risk assessment.
+How do you approach open-ended ML problems?
+I start by clearly defining the objective and how success will be measured. In many ML projects, the challenge isn’t modeling — it’s understanding what outcome matters. I break the problem into stages: data availability, baseline modeling, evaluation metrics, and deployment constraints. For example, in optimizing our chatbot system, I first benchmarked latency and throughput, then identified GPU bottlenecks, and iteratively optimized the inference pipeline. I prefer starting with a simple, measurable baseline and refining progressively rather than jumping directly into complex solutions.
 
-Q: How do you ensure reliability in ML systems?
-A: I focus on monitoring, automation, and retraining pipelines. At Boehringer, I implemented AWS CloudWatch, Grafana, and Prometheus monitoring and built drift-triggered retraining workflows using Airflow to ensure data quality and system reliability, reducing incident resolution time by 40%.
+Describe a time you had limited or messy data.
+At Yunometa, we were working with financial documents that contained multilingual and poorly structured text data. The OCR outputs were noisy and inconsistent, which directly impacted downstream ML performance. Instead of immediately tuning models, I focused on improving preprocessing and built a pipeline integrating Faster R-CNN with better region detection before text extraction. I also implemented cleaning and validation rules. Improving data quality significantly boosted extraction accuracy and made the downstream models more reliable.
 
-Q: Tell me about a time you worked cross-functionally.
-A: At Kritexco and Aadyam Infotech, I collaborated closely with stakeholders and cross-functional teams to gather requirements, design scalable data pipelines, and ensure data accuracy across development and production environments. This collaboration ensured reliable model deployment and actionable insights.
+Have you ever had to design a system without clear guidelines?
+Yes. When we redesigned the inference architecture at Boehringer, there wasn’t an established template for scaling LLM-based RAG systems internally. We had to design the serving strategy, GPU orchestration, batching logic, and monitoring framework from scratch. I evaluated different approaches, experimented with asynchronous FastAPI endpoints and Ray-based scheduling, and implemented performance monitoring with Prometheus and Grafana. The system eventually increased throughput by 80% while maintaining SLA compliance.
 
-Q: How do you approach building scalable ML systems?
-A: I design systems end-to-end with scalability in mind—distributed training using DeepSpeed and Ray, containerized deployments with Docker and Kubernetes, automated data pipelines with Airflow, and monitoring with CloudWatch and Prometheus. I prioritize measurable impact, reliability, and performance optimization.
+Tell me about a time you worked with non-technical stakeholders.
+During the survey analysis project, leadership teams wanted insights but weren’t familiar with RAG or embedding pipelines. I worked closely with them to understand what types of summaries were most useful and how they consumed reports. Instead of discussing technical architecture, I focused on explaining how the system retrieved relevant responses and generated consistent summaries. By aligning outputs with business needs, we ensured the system was practical and adopted by stakeholders.
+
+How do you explain complex ML concepts to business teams?
+I focus on translating technical mechanisms into impact-driven explanations. For example, instead of explaining embeddings and vector similarity in detail, I describe it as a way for the system to “find the most relevant responses before generating an answer.” I use simple analogies and focus on outcomes such as faster decision-making or improved reliability. My goal is always clarity and confidence rather than technical depth when speaking with business stakeholders.
+
+Describe a time you had conflict with a teammate.
+In one project, there was a disagreement about whether we should prioritize adding new model features or focus on improving system performance and latency. I believed reliability would have a greater immediate impact. Rather than debating opinions, I proposed benchmarking both approaches and measuring their impact on user experience. The data showed latency improvements significantly enhanced adoption, which helped us align on prioritizing system optimization first.
+
+Tell me about a cross-functional project you worked on.
+The RAG survey analysis system was highly cross-functional. It involved data engineering for ingestion pipelines, ML for embeddings and generation, DevOps for deployment, and business teams for validation. I collaborated with engineers to implement automated Airflow retraining, worked with DevOps to integrate monitoring, and coordinated with leadership to refine output formats. The result was a scalable, reliable system that improved insight delivery and maintained 95% SLA compliance.
+
+Have you ever had to push back on unrealistic expectations?
+Yes. There was an expectation that the chatbot system could handle unlimited concurrent requests without performance degradation. After benchmarking, I explained the GPU and batching constraints and presented data on latency trade-offs. Instead of rejecting the goal outright, I proposed a phased optimization plan with clear performance targets. This realistic roadmap helped align expectations while still pushing for improvement.
+
+Tell me about a time you disagreed with the problem framing.
+In one discussion, the initial framing was that our issue was “model accuracy,” but from my analysis, latency and throughput were the bigger barriers to adoption. I gathered performance metrics and demonstrated that even with high-quality responses, slow performance reduced usage. By reframing the problem as a system optimization challenge rather than purely a modeling issue, we prioritized inference improvements and saw a significant increase in engagement.
