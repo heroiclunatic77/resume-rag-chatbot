@@ -93,6 +93,18 @@ Question:
     st.subheader("Answer")
     st.write(answer)
 
+# Collect unique section names
+sections = {
+    doc.metadata["section"]
+    for doc in docs
+    if "section" in doc.metadata
+}
+
+if sections:
+    st.markdown("### Sources")
+    st.markdown("\n".join(f"- {section}" for section in sorted(sections)))
+
+
     # # Display sources
     # st.subheader("Sources")
     # for doc in docs:
