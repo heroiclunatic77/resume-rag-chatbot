@@ -1,0 +1,58 @@
+Hrishikesh Keswani
+Boston, MA (Open to Relocation) | (857)3985289 | keswani.hrishikesh7@gmail.com |  github.com/heroiclunatic77 | linkedin.com/in/hrishikeshkeswani  | https://heroiclunatic77.github.io/#portfolio
+EXPERIENCE
+Machine Learning Engineer – Boehringer Ingelheim, Athens, Georgia, USA January 2025 - July 2025
+Engineered scalable RAG architecture using Llama-3, GPT-4o, and Nova Lite that automatically extracted key themes from 10k+
+employee survey responses, enabling data-driven leadership decisions through contextually-aware response generation
+Improved chatbot throughput by 80% through asynchronous FastAPI endpoints and vLLM continuous batching, containerized via
+Docker and scaled across multi-GPU clusters using Ray for parallel workload distribution
+Developed an automated AirFlow data engineering pipeline (scraping, cleaning, chunking, and vector embedding) with nightly updates
+and drift-triggered retraining, ensuring high-quality model inputs and reducing inaccuracies
+Leveraged AWS CloudWatch, Grafana, and Prometheus to design comprehensive monitoring and alerting systems, decreasing
+incident resolution time by 40% and achieving 95% SLA compliance
+Data Scientist - Yunometa, Mumbai, India August 2022 - July 2023
+Modernized legacy API into a cloud-native microservices architecture using Django, AWS (EKS), Docker & Kubernetes with
+oAuth 2.0 security, accelerating loan approval processes by 70% through real-time risk assessment
+Engineered advanced SQL queries in AWS (Athena, Redshift, S3, Druid) to optimize management of 10M+ records from
+government APIs, enhancing stakeholder data visibility and decision-making capabilities
+Developed scalable data transformation pipeline using Apache Spark, AWS(EMR, Lambda) and PostgreSQL to ingest, cleanse, and
+standardize massive datasets, improving preprocessing efficiency by 40%
+Increased text extraction accuracy by 70% for multilingual documents by training a Faster R-CNN model using PyTorch and
+OpenCV, significantly enhancing document processing capabilities
+Data Scientist - Kritexco, Mumbai, India December 2021 - March 2022
+Analyzed 50k+ dataset from OpenSea and Rarible using Python and Matplotlib, extracting insights on NFT sales trends. Visualized
+findings in Tableau, resulting in better decision making
+Built and deployed an LSTM model using Tensorflow for predicting NFT prices with an RMSE score of 386, resulting in a 20%
+improvement in price accuracy compared to traditional methods
+Collaborated closely with stakeholders and cross-functional teams to identify data requirements, design scalable data pipelines, and
+ensure data accuracy and integrity through development, test, and production environments
+Machine Learning Engineer- Aadyam Infotech, Pune, India June 2021 - August 2021
+Formulated regular expressions, leveraged Azure AI, and engineered an NLP pipeline that parses and extracts key information from
+unstructured documents, and achieved an accuracy of 86% for extracted records
+Worked with cross-functional teams in an agile environment to develop and brainstorm optimization strategies for the algorithm
+PROJECT EXPERIENCE
+FinanceHelper AI | GenAI | NLP | Retrieval Augmented Generation | PEFT | LLM
+Fine-tuned a Large Language Model (Mistral-7B) language model on the book "The Psychology of Money" with LoRA, and NLP
+techniques for tokenization and integrated vector dbs, further improving the accuracy and speed of the model's responses
+Integrated Retrieval-Augmented Generation (RAG) using LangChain and semantic similarity, fetching relevant advice from the book
+pertinent to the user’s query, improving the accuracy and contextual relevance of the response
+LLM-Driven Financial Sentiment Analysis Tool | LLM | Data Mining | NLP | AI | Prompt Engineering
+Utilized Python’s Scrapy for web scraping of financial news, integrating BERT transformers to perform sentiment analysis and text
+summarization and achieved a 90% accuracy, boosting strategy performance
+Fine-tuned the BERT model on a custom dataset of financial news articles, using learning rate scheduling, gradient clipping, and data
+augmentation to improve sentiment analysis accuracy
+Distributed Machine Learning Training Framework | DeepSpeed | Llama, Ray | Docker | Python | HuggingFace
+Implemented DeepSpeed’s ZeRO optimization strategies for GPU memory efficiency and parallelized model training
+Developed a scalable orchestration system with Ray for multi-GPU distributed training, enabling efficient parameter synchronization
+Created modular pipeline for fine-tuning large language models on domain-specific tasks with automated hyperparameter optimization
+EDUCATION
+Northeastern University | Master of Science in Data Analytics Engineering December 2025
+Relevant Coursework: Foundations for Data Analytics, Data Management for Analytics, Data Mining, Computation & Visualization, Neural
+Networks & Deep Learning, Natural Language Processing, Database Management Systems
+TECHNICAL SKILLS
+Core ML/AI PyTorch, LangChain, HuggingFace, LLMs (Llama-3, GPT-4o, Mistral), vLLM, MLFlow
+Programming Python, SQL, Java, C++, Golang, Scala
+Frontend & Full-Stack React, Next.js, HTML, CSS, JavaScript, TypeScript
+Databases Apache Spark, Airflow, Kafka, Redis, PostgreSQL, MongoDB, Druid, Solr
+Cloud & DevOps AWS (S3, Lambda, EC2, EKS, EMR), Docker, Kubernetes, OpenShift, CI/CD
+APIs & Frameworks FastAPI, Django, GraphQL, TensorFlow/Keras, Springboot

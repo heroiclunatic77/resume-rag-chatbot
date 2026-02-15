@@ -1,0 +1,46 @@
+FAQ
+
+Q: Tell me about yourself.
+A: I’m a Machine Learning Engineer based in Boston with experience building production-grade AI systems. At Boehringer Ingelheim, I engineered a scalable RAG architecture using Llama-3 and GPT-4o to analyze 10K+ employee survey responses. I improved chatbot throughput by 80% using asynchronous FastAPI and vLLM, scaled across multi-GPU clusters with Ray, and built automated Airflow pipelines with drift-triggered retraining. Previously at Yunometa, I modernized legacy APIs into cloud-native microservices and built large-scale Spark data pipelines processing 10M+ records.
+
+Q: What experience do you have with Retrieval-Augmented Generation (RAG)?
+A: At Boehringer Ingelheim, I built a production-grade RAG system using Llama-3, GPT-4o, and Nova Lite to extract key themes from 10K+ employee survey responses. I implemented chunking, embedding pipelines, nightly updates, and drift-triggered retraining using Airflow. In my FinanceHelper AI project, I integrated LangChain-based RAG with semantic similarity to provide context-aware financial guidance.
+
+Q: What experience do you have with distributed systems?
+A: I scaled LLM inference across multi-GPU clusters using Ray and vLLM continuous batching at Boehringer Ingelheim, improving throughput by 80%. In my Distributed Machine Learning Training Framework project, I implemented DeepSpeed ZeRO optimization and used Ray for multi-GPU orchestration and efficient parameter synchronization.
+
+Q: What measurable impact have you delivered in your roles?
+A: At Boehringer, I improved chatbot throughput by 80%, reduced incident resolution time by 40%, and maintained 95% SLA compliance. At Yunometa, I accelerated loan approval processes by 70% and improved data preprocessing efficiency by 40% through scalable Spark pipelines.
+
+Q: What cloud and DevOps experience do you have?
+A: I have hands-on experience with AWS services including S3, Lambda, EC2, EKS, and EMR. At Yunometa, I modernized a legacy API into a cloud-native microservices architecture using Django, Docker, Kubernetes, and AWS EKS with OAuth 2.0 security. I also implemented monitoring using AWS CloudWatch, Grafana, and Prometheus.
+
+Q: What machine learning frameworks and tools do you use?
+A: I primarily work with PyTorch, HuggingFace, LangChain, vLLM, and MLflow for LLM systems. I’ve used DeepSpeed for distributed training, Ray for orchestration, Airflow for data engineering pipelines, and FastAPI for model serving. My broader stack includes Spark, PostgreSQL, MongoDB, and AWS cloud infrastructure.
+
+Q: What experience do you have with large-scale data processing?
+A: At Yunometa, I engineered advanced SQL queries across AWS Athena, Redshift, S3, and Druid to manage 10M+ records from government APIs. I also developed scalable Spark-based data transformation pipelines on AWS EMR and Lambda to ingest, cleanse, and standardize large datasets efficiently.
+
+Q: Do you have experience fine-tuning large language models?
+A: Yes. In my FinanceHelper AI project, I fine-tuned Mistral-7B using LoRA and implemented semantic retrieval with LangChain for improved contextual accuracy. I also developed a modular distributed training pipeline using DeepSpeed and Ray for efficient multi-GPU fine-tuning workflows.
+
+Q: What projects demonstrate your GenAI expertise?
+A: My FinanceHelper AI project involved LoRA-based fine-tuning of Mistral-7B and integration of a RAG pipeline using LangChain. Additionally, at Boehringer Ingelheim, I built a scalable RAG architecture to analyze large-scale survey data and deliver actionable insights to leadership.
+
+Q: Are you open to relocation?
+A: Yes, I am currently based in Boston, MA and open to relocation opportunities.
+
+Q: Describe a challenging problem you solved.
+A: At Boehringer Ingelheim, scaling LLM inference across GPUs while maintaining low latency and high reliability was challenging. I implemented asynchronous FastAPI endpoints and vLLM continuous batching, orchestrated via Ray across multi-GPU clusters. This improved throughput by 80% while maintaining 95% SLA compliance.
+
+Q: Describe a time you improved an existing system.
+A: At Yunometa, I modernized a legacy API into a cloud-native microservices architecture using Django, Docker, Kubernetes, and AWS EKS. This significantly improved system scalability and accelerated loan approval processes by 70% through real-time risk assessment.
+
+Q: How do you ensure reliability in ML systems?
+A: I focus on monitoring, automation, and retraining pipelines. At Boehringer, I implemented AWS CloudWatch, Grafana, and Prometheus monitoring and built drift-triggered retraining workflows using Airflow to ensure data quality and system reliability, reducing incident resolution time by 40%.
+
+Q: Tell me about a time you worked cross-functionally.
+A: At Kritexco and Aadyam Infotech, I collaborated closely with stakeholders and cross-functional teams to gather requirements, design scalable data pipelines, and ensure data accuracy across development and production environments. This collaboration ensured reliable model deployment and actionable insights.
+
+Q: How do you approach building scalable ML systems?
+A: I design systems end-to-end with scalability in mind—distributed training using DeepSpeed and Ray, containerized deployments with Docker and Kubernetes, automated data pipelines with Airflow, and monitoring with CloudWatch and Prometheus. I prioritize measurable impact, reliability, and performance optimization.
