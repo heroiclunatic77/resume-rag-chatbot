@@ -93,19 +93,15 @@ Question:
     st.subheader("Answer")
     st.write(answer)
 
-# Display unique sections only
-st.subheader("Sources")
+# Display sources
+    st.subheader("Sources")
 
-sections = set()
+# Extract unique section names
+    sections = {doc.metadata.get("section") for doc in docs if "section" in doc.metadata}
 
-for doc in docs:
-    section = doc.metadata.get("section")
-    if section:
-        sections.add(section)
-
-for section in sections:
-    st.write(f"- {section}")
-
+# Print in bullet format
+    for section in sorted(sections):
+        st.write(f"- {section.capitalize()}")
 
 
     # # Display sources
